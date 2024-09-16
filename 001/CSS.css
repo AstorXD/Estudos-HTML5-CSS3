@@ -1,0 +1,18 @@
+.Item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: rgb(255, 0, 0);
+  background-color: brown;
+  padding: 10px;
+  border-radius: 5px;
+  size: 1000%;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+h1{
+    color: blue;
+}
