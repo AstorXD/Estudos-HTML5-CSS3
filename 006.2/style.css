@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.btn{
+    position: flex;
+    justify-items: center;
+    background-color: hsl(45, 100%, 49%);
+    max-height: 80%;
+    max-height: min-content;
+    object-fit: contain;
+    border-radius: 20%;
+}
+.btn-ico{
+    position: inherit;
+    max-width: 80%;
+    max-height: 80%;
+    background-color: transparent;
+    margin: 5px;
+    cursor: pointer;
+    object-fit: contain;
+}
+.header{
+    display: flex;
+    max-height: 80px;
+    max-width: 100%;
+    background-color: rgb(255, 236, 200);
+    padding: 10px;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    max-width: 100px;
+    background-color: #fbbb00;
+    border-radius: 20%;
+    justify-content: center;
+}
+.header .logo img{
+    max-width: 80%;
+    object-fit: contain;
+}
